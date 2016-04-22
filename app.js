@@ -15,6 +15,9 @@ app.get('/Books', function(req, res){
     res.send('Hello Books');
 });
 
+app.get('/views', function(req, res){
+    res.send('Magus Academy Site');
+});
 app.listen(port, function(err){
     console.log('running server on port ' + port);
 });
